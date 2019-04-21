@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d4921edd-b9b5-442d-8a91-dbcd17aabe55" name="my_asr" url="http://219.223.174.254">
+        <fileTransfer host="219.223.174.254" port="22" rootFolder="/home/currycode" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="20260c4e-e81a-471f-94b8-5626c97338e6" name="my_asr2" url="http://219.223.173.213">
+        <fileTransfer host="219.223.173.213" port="22" rootFolder="/home/currycode" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
